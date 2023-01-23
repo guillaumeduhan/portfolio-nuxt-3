@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+
+  .wave {
+    @apply underline decoration-blue-600 decoration-wavy mb-4;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-extrabold;
+  }
+
+  h1 {
+    @apply text-4xl lg:text-5xl wave underline-offset-8;
+
+    a {
+      @apply text-4xl lg:text-5xl wave underline-offset-8;
+    }
+  }
+
+  h2 {
+    @apply text-base lg:text-lg wave underline-offset-4;
+  }
+
+  h3 {
+    @apply text-2xl wave underline-offset-4;
+  }
+
+  p {
+    @apply text-slate-500 mt-0;
+
+    font-size: 20px!important;
+  }
+  
+  ol li {
+    font-size: 20px!important;
+  }
+
+  svg {
+    height: 36px;
+    width: 44px;
+
+    @apply text-3xl text-gray-500 cursor-pointer mr-1;
+
+    &:hover {
+      @apply text-blue-600;
+    }
+  }
+}
