@@ -13,6 +13,7 @@
     "typescript": "^4.9.3"
   },
   "dependencies": {
-    "sass": "^1.57.1"
+    "sass": "^1.57.1",
+    "uuid": "^9.0.0"
   }
 }

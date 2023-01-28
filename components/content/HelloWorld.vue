@@ -1,4 +1,4 @@
-s<template>
+<template>
   <div>
     <Head>
       <Title>Guillaume Duhan</Title>
